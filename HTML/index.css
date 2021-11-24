@@ -1,0 +1,153 @@
+body{
+    font-family: sans-serif;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    object-fit: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin-block: 2rem;
+    gap: 2rem;
+}
+
+.card{
+    display: flex;
+    height:63vh;
+    flex-direction: column;
+    width: clamp(15rem, calc(10rem ), 9rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ffff;
+   
+}
+
+.card2{
+    display: flex;
+    height:47vh;
+    flex-direction: column;
+    width: clamp(15rem, calc(10rem ), 9rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ffff;
+    
+}
+
+.card3{
+    display: flex;
+    height:75vh;
+    flex-direction: column;
+    width: clamp(15rem, calc(10rem ), 9rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ffff;
+   
+}
+
+.card4{
+    display: flex;
+    height:30vh;
+    flex-direction: column;
+    width: clamp(15rem, calc(10rem ), 9rem);
+    overflow: hidden;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    border-radius: 1em;
+    background: #ffff;
+    
+}
+
+
+
+.card-content{
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-buttons{
+    padding:1rem;
+    width: 7vw;
+    display: flex;
+    color:blue;
+    justify-content:space-between; 
+    
+        
+}
+
+.card-header{
+    display: flex; 
+    padding: 1rem; 
+    justify-items:center;
+    
+   
+    
+}
+
+h6{
+    margin-top:1px
+}
+
+h5{
+    margin-bottom: 6px;
+}
+
+.user-image{
+    margin:1rem 1rem ;
+    height:3vw;
+    width: 3vw;
+    border-radius:50%;
+
+}
+.user-info{
+    margin-top: 0;
+    margin-left: 2vh;
+}
+
+.user-info > h6 {
+    color:#666; 
+}
+
+.card-icon{
+  
+    
+    display: flex;
+    margin:1rem ;
+    justify-content: flex-end; 
+    padding: 3px;
+    
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 5vw;
+    
+}
+
+span{
+    font-size:90%;
+    font-weight: bold;
+    color:blue;
+    
+}
+
+button{
+    border:none ;
+    background: #ffff;
+   
+    
+}
